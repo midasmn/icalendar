@@ -1,0 +1,372 @@
+2014/06/22 23:56:52 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/share/nginx/html/__yii/__yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/06/22 23:59:01 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/share/nginx/html/__yii/__yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/06/23 00:01:17 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/share/nginx/html/__yii/__yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/06/23 00:01:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/share/nginx/html/__yii/__yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/06/23 00:05:04 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/share/nginx/html/__yii/__yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/06/23 00:05:07 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/share/nginx/html/__yii/__yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/06/23 14:44:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/06/23 14:45:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/06/23 14:45:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/06/23 14:52:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/06/23 14:52:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/06/23 14:52:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/06/23 14:52:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/06/23 14:54:06 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/share/nginx/html/__yii/__yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/06/23 14:57:40 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/share/nginx/html/__yii/__yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/06/23 14:57:44 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/share/nginx/html/__yii/__yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/06/23 15:05:26 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/share/nginx/html/__yii/__yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(282): CController->run('index')
+#2 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/default/ind...')
+#3 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii/default/index
+HTTP_REFERER=http://icalendar.xyz/index.php?r=gii
+---
+2014/06/23 15:05:38 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/share/nginx/html/__yii/__yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/07/26 11:47:41 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/share/nginx/html/__yii/__yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/07/26 13:30:34 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/share/nginx/html/__yii/__yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/07/26 14:40:50 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/share/nginx/html/__yii/__yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/07/26 14:41:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/share/nginx/html/__yii/__yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/07/26 15:33:39 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/share/nginx/html/__yii/__yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/07/26 15:43:52 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/share/nginx/html/__yii/__yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/07/26 15:44:16 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/share/nginx/html/__yii/__yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/07/26 15:45:18 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/share/nginx/html/__yii/__yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/07/26 15:45:21 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/share/nginx/html/__yii/__yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/07/26 15:45:25 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/share/nginx/html/__yii/__yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/07/26 15:45:51 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/share/nginx/html/__yii/__yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/07/26 15:50:12 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/share/nginx/html/__yii/__yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/07/26 15:50:16 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/share/nginx/html/__yii/__yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/07/26 21:12:22 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'icalendar.tbl_ymd' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_ymd`.
+in /usr/share/nginx/html/icalendar.xyz/index.php (13)
+2014/07/26 22:48:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post".' in /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('post')
+#1 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=post
+---
+2014/07/26 22:57:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "create".' in /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('create')
+#1 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=create
+---
+2014/07/26 22:58:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "carendar".' in /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('carendar')
+#1 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=carendar
+---
+2014/07/26 23:28:09 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /usr/share/nginx/html/__yii/__yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /usr/share/nginx/html/__yii/__yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /usr/share/nginx/html/__yii/__yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /usr/share/nginx/html/__yii/__yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=user/admin
+HTTP_REFERER=http://icalendar.xyz/index.php?r=user
+---
+2014/07/27 15:33:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "carendar".' in /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('carendar')
+#1 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=carendar
+---
+2014/07/27 17:34:18 [error] [exception.CException] exception 'CException' with message 'Property "Calendar.update_time" is not defined.' in /usr/share/nginx/html/__yii/__yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /usr/share/nginx/html/__yii/__yii/framework/db/ar/CActiveRecord.php(161): CComponent->__set('update_time', 1406450058)
+#1 /usr/share/nginx/html/icalendar.xyz/protected/models/Calendar.php(154): CActiveRecord->__set('update_time', 1406450058)
+#2 /usr/share/nginx/html/__yii/__yii/framework/db/ar/CActiveRecord.php(1071): Calendar->beforeSave()
+#3 /usr/share/nginx/html/__yii/__yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#4 /usr/share/nginx/html/icalendar.xyz/protected/controllers/CalendarController.php(73): CActiveRecord->save()
+#5 /usr/share/nginx/html/__yii/__yii/framework/web/actions/CInlineAction.php(49): CalendarController->actionCreate()
+#6 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /usr/share/nginx/html/__yii/__yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 /usr/share/nginx/html/__yii/__yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 /usr/share/nginx/html/__yii/__yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 /usr/share/nginx/html/__yii/__yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(291): CFilterChain->run()
+#13 /usr/share/nginx/html/__yii/__yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(282): CController->run('create')
+#15 /usr/share/nginx/html/__yii/__yii/framework/web/CWebApplication.php(141): CWebApplication->runController('calendar/create')
+#16 /usr/share/nginx/html/__yii/__yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /usr/share/nginx/html/icalendar.xyz/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php?r=calendar/create
+HTTP_REFERER=http://icalendar.xyz/index.php?r=calendar/create
+---
