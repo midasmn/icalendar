@@ -11,6 +11,6 @@ exit;
 }
 $rtn = mysql_query("SET NAMES utf8" , $db_conn);
 mysql_select_db($dbname);
-$sql = "UPDATE `tbl_amazon` SET `cronflg` = 'OFF' ";
+$sql = "UPDATE `tbl_amazon` SET `cronflg` = 'php' where `cronflg` = 'ON'";
 $result = mysql_query($sql, $db_conn);
 ?>

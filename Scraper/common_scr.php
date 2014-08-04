@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 require 'simple_html_dom.php';
 // header('Content-Type: text/html; charset=utf-8');
@@ -33,9 +33,9 @@ function f_insert_ymd($db_conn,$calendar_id,$yyyy,$mm,$dd,$list_title,$img_path,
     return $rtn;
 }
 /////////////
-function f_update_flg($db_conn,$node)
+function f_update_flg($db_conn,$table,$id)
 {
-    $sql = "UPDATE `tbl_amazon` SET `cronflg` = 'ON' WHERE `node` = '$node'";
+    $sql = "UPDATE `$table` SET `cronflg` = '-' WHERE `id` = '$id'";
     $result = mysql_query($sql, $db_conn);
 }
 
@@ -43,50 +43,29 @@ function f_update_flg($db_conn,$node)
 //amazonランキング画像取得
 // $get_url = 'http://www.amazon.co.jp/gp/bestsellers/books/2278488051'; //アマゾンコミックベストセラー
 // function f_amazon_scrape_img($db_conn,$exm_url,$calendar_id,$yyyy,$mm,$dd)
-function f_amazon_scrape_img($db_conn,$get_url,$calendar_id,$description,$yyyy,$mm,$dd)
+// function f_amazon_scrape_img($db_conn,$get_url,$calendar_id,$description,$yyyy,$mm,$dd)
+function f_google_scrape_img($db_conn,$exm_url,$calendar_id,$id,$mm,$dd,$name_k,$name)
 {
-    $assoc_tag = '/tag=mittellogeblo-22';
-    $get_url .= $assoc_tag;
 // echo "<br>".$get_url."<br>";
+    $yyyy = 9999;
+    $list_title = "誕生花";
     $rtn = array();
     // 画像取得
     // // 文字化け対策のおまじない的（？）なもの。
    // mb_language('Japanese');//←これ
    //  $html = mb_convert_encoding(file_get_html($get_url),'UTF-8','auto');
-    $html = file_get_html($get_url);
+    $html = file_get_html($exm_url);
    //  //
     $img_cnt=0;
-    $alt_cnt=0;
-    $href_cnt=0;
-    $list_title = $description;  
     //画像
-    foreach ($html->find('.zg_itemImage_normal a img') as $element)
+    foreach ($html->find('img') as $element)
     {
             $rtn['img'][$img_cnt] = $element->src; 
+            f_insert_ymd($db_conn,$calendar_id,$yyyy,$mm,$dd,$list_title,$rtn['img'][$img_cnt],$name,"",$img_cnt+1);
+// echo "<br>".$rtn['img'][$img_cnt] ;
             $img_cnt++;
     }
-    //alt
-    foreach ($html->find('.zg_itemImage_normal a img') as $element)
-    {
-            $rtn['alt'][$alt_cnt]= $element->alt; 
-            $alt_cnt++;
-    }
-    //URL
-    foreach ($html->find('.zg_itemImage_normal a') as $element)
-    {
-            $rtn['href'][$href_cnt] = $element->href.$assoc_tag; 
-            $href_cnt++;
-    }
-    $rtn_imgs = $rtn;
-    //DB
-    $cnt = count($rtn_imgs['img']);
-    $i = 0;
-    while ($i  <= $cnt) 
-    {
-        //insert
-        f_insert_ymd($db_conn,$calendar_id,$yyyy,$mm,$dd,$list_title,$rtn_imgs['img'][$i],$rtn_imgs['alt'][$i],$rtn_imgs['href'][$i],$i+1);
-        $i++;
-    }   
+    //D
     // 解放する
     $html->clear();
     unset($rtn);
@@ -100,23 +79,27 @@ $dd = date('d');
 //////////////////
 // DBからNODES読み込み
 /////////////////
+$calendar_id = 2; //カレンダーID
+// $get_url = "https://www.google.co.jp/search?hl=ja&source=lnms&tbm=isch&tbs=isz:l&q=";  //取得URL Lサイズ
+$get_url = "https://www.google.co.jp/search?hl=ja&source=lnms&tbm=isch&tbs=isz:m&q=";  //取得URL Mサイズ
+
+
 $rtn_array = array();
 //クーロン対象で未処理＆表示対象ON
-$sql = 'SELECT `url`, `node`, `description`, `calendar_id` FROM `tbl_amazon` WHERE `cronflg` = "OFF" and `onflg` = "ON" limit 100;';
-// $sql = 'SELECT `url`, `node`, `description`, `calendar_id` FROM `tbl_amazon` WHERE `cronflg` = "OFF" and `onflg` = "ON";';
+$sql = 'SELECT `id`, `mm`, `dd`, `name_k`, `name` FROM `tbl_birthflower` WHERE `cronflg` = "ON" and `onflg` = "ON" order by `order` limit 100;';
 $result = mysql_query($sql,$db_conn);
 $cnt = 1;
 if($result)
 {
     while($link = mysql_fetch_row($result))
     {
-        list($get_url,$node,$description, $calendar_id) = $link;
+        list($id,$mm,$dd,$name_k,$name) = $link;
         //処理用URL
-        $exm_url = $get_url .$node;
+        $exm_url = $get_url.urlencode($name);
         //スクレイピング処理
-        $rtn_imgs = f_amazon_scrape_img($db_conn,$exm_url,$calendar_id,$description,$yyyy,$mm,$dd);
+        $rtn_imgs = f_google_scrape_img($db_conn,$exm_url,$calendar_id,$id,$mm,$dd,$name_k,$name);
         //フラグUPDATE
-        f_update_flg($db_conn,$node);
+        f_update_flg($db_conn,'tbl_birthflower',$id);
         // echo $cnt."件目<br>";
         $cnt++;
         sleep(1); // サーバへの負荷を減らすため 1 秒間遅延処理
