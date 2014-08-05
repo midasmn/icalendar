@@ -28,7 +28,7 @@ function f_google_scrape_img_YAHOO($db_conn,$exm_url,$calendar_id,$list_title,$y
             $rtn['img'][$img_cnt] = $element->src;
             if($img_cnt==0)
             {
-echo '<br><img src="'.$rtn['img'][$img_cnt].'">'.$name;
+// echo '<br><img src="'.$rtn['img'][$img_cnt].'">'.$name;
                 f_insert_ymd($db_conn,$calendar_id,$yyyy,$mm,$dd,$list_title,$rtn['img'][$img_cnt],$name,"",$order);
                 $img_cnt++;    
             }
