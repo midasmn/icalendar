@@ -41,10 +41,9 @@ $dd = sprintf("%02d", $dd -1);
 // $dd = "03";
 //////////////////
 /////////////////
-$calendar_id = 348; //yahoo人物デイリー総数
-$list_title = "オリコンCDシングルデイリーランキング";
-$get_href = "http://www.oricon.co.jp/rank/js/d/";
-//http://www.oricon.co.jp/rank/ja/d/2014-08-03/ 
+$calendar_id = 349; //yahoo人物デイリー総数
+$list_title = "オリコンCDアルバムデイリーランキング";
+$get_href = "http://www.oricon.co.jp/rank/ja/d/";
 $get_href .= $yyyy."-".$mm."-".$dd."/";
 // $get_url = "https://
 // echo $get_href;
